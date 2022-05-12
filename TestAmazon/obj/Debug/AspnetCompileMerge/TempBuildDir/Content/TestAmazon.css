@@ -1,0 +1,39 @@
+﻿body {
+    background-color: #e2e2e2;
+    margin: 0;
+    padding: 0;
+}
+.Titulo
+{
+	margin-top:2%;
+	text-align:center;
+}
+.lblWeights
+{
+	text-align:right;
+}
+.divWeights
+{
+	text-align:left;
+}
+.btnWeights
+{
+	margin-right:2px;
+	margin-bottom:4px;
+}
+#lblresultvalue
+{
+	text-align:left;
+}
+.lblresult
+{
+	color:green;
+}
+.hrMargin
+{
+	margin-bottom:5px;
+}
+.alingleft
+{
+	text-align:left;
+}

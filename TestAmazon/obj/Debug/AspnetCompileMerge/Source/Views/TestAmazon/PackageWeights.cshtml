@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "PackageWeights";
+}
+<div class="container">
+    <div class="row align-items-center align-self-center">
+        <div class="col-12">
+            <div class="card Titulo offset-md-1 offset-sm-0 col-12 col-md-10">
+                <div class="card-header">
+                    <h2>Find the maximum possible weight of a package</h2>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <div class="bd-example">
+                            <div class="accordion" id="accordionInstruction">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button id="btnInstruction" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstruction" aria-expanded="false" aria-controls="collapseInstruction">
+                                            Instructions
+     
+                                        </button>
+                                    </h2>
+                                    <div id="collapseInstruction" class="accordion-collapse collapse">
+                                        <div class="accordion-body alingleft">
+                                            <p>To increase efficiency, the amazon shipping team will group packages being shipped according to weight. They merge a lighter package, which eliminates the need for separate shipments.</p>
+                                            <p>Find the maximum possible weight of package that can be archived after any sequence of merge-operations.</p>
+                                            <p><strong>Example:</strong></p>
+                                            <p>For example, packages are described as package_weight =[2,9,10,3,7]</p>
+                                            <p>the optima order of operations is, using 1-based indexing</p>
+                                            <p><strong>*</strong> Combine the packages at index 2 and index 3, the new array of package weights becomes [2,19,3,7]</p>
+                                            <p><strong>*</strong> Combine the packages at index 1 and index 2, the new array of package weights becomes [21,3,7]</p>
+                                            <p><strong>*</strong> Combine the packages at index 2 and index 3, the new array of package weights becomes [21,10]</p>
+                                            <p>We can not combine the packages anymore.</p>
+                                            <p>The weight of the heaviest package achievable after merging is <strong>21</strong> </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                    <div class="row g-3">
+                        <div class="col-12 row g-3 ">
+
+                            <div class="col-3 offset-md-2 offset-2">
+                                <input type="text" readonly class="form-control-plaintext lblWeights col-auto" id="lblWeights" value="Weights:">
+                            </div>
+                            <div class="col-3">
+                                <input type="number" class="form-control col-auto" id="txtWeights">
+                            </div>
+                            <div class="col-1">
+                                <input type="button" id="btnWeights" class="btn btn-primary col-auto" value="add" />
+                            </div>
+                        </div>
+
+                        <div class="col-12 divWeights" id="TotalWeights" style="text-align: center;">
+                        </div>
+                        <div id="divResult" class="row g-3" style="display: none;">
+                            <hr class="hrMargin" />
+                            <div class="col-4 col-md-5">
+                                <input type="text" readonly class="form-control-plaintext lblWeights" id="lblresult" value="Maximum possible weight is:">
+                            </div>
+
+                            <div class="col-3">
+                                <input type="text" readonly class="form-control-plaintext lblresult" id="lblresultvalue" value="">
+                            </div>
+                            <hr class="hrMargin" />
+                        </div>
+                        <div class="col-12">
+                            <input type="button" class="btn btn-secondary col-3 col-md-2" id="btnClear" value="Clear" />
+                            <input type="button" class="btn btn-primary col-3 col-md-2" id="btnCalculate" value="Merge" disabled />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+

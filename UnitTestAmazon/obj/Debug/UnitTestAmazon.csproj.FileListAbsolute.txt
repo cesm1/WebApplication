@@ -1,0 +1,7 @@
+C:\Users\carlos.sanchez\Documents\Carlos Eduardo Sanchez Montoya\Pruebas Amazon\TestAmazon\UnitTestAmazon\bin\Debug\UnitTestAmazon.dll
+C:\Users\carlos.sanchez\Documents\Carlos Eduardo Sanchez Montoya\Pruebas Amazon\TestAmazon\UnitTestAmazon\bin\Debug\UnitTestAmazon.pdb
+C:\Users\carlos.sanchez\Documents\Carlos Eduardo Sanchez Montoya\Pruebas Amazon\TestAmazon\UnitTestAmazon\obj\Debug\UnitTestAmazon.dll
+C:\Users\carlos.sanchez\Documents\Carlos Eduardo Sanchez Montoya\Pruebas Amazon\TestAmazon\UnitTestAmazon\obj\Debug\UnitTestAmazon.pdb
+C:\Users\carlos.sanchez\Documents\Carlos Eduardo Sanchez Montoya\Pruebas Amazon\TestAmazon\UnitTestAmazon\bin\Debug\Newtonsoft.Json.dll
+C:\Users\carlos.sanchez\Documents\Carlos Eduardo Sanchez Montoya\Pruebas Amazon\TestAmazon\UnitTestAmazon\bin\Debug\Newtonsoft.Json.xml
+C:\Users\carlos.sanchez\Documents\Carlos Eduardo Sanchez Montoya\Pruebas Amazon\TestAmazon\UnitTestAmazon\obj\Debug\UnitTestAmazon.csprojResolveAssemblyReference.cache
